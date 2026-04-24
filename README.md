@@ -1,4 +1,9 @@
-1. Write a C program to find the maximum of three numbers without using logical operators.
+### C PROGRAM ASSIGNMENT
+##
+
+
+
+ 1. Write a C program to find the maximum of three numbers without using logical operators.
 ```
 #include <stdio.h>
 
