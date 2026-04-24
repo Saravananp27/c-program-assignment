@@ -2,10 +2,10 @@
 
 1. Write a C program to find the maximum of three numbers without using logical operators.
  
-#include <stdio.h>
+    #include <stdio.h>
 
-int main()
-{
+    int main()
+    {   
     int a, b, c, max;
 
     printf("Enter three numbers: ");
