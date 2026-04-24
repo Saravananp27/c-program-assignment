@@ -26,3 +26,29 @@
 
     return 0;
 }
+
+2.  Write a  C program to check whether the given year is leap year or not by adding century leap year or non-century leap year in the output (Eg: 2000 is a century leap year, 2024 is a non-century leap year)
+
+   #include <stdio.h>
+
+    int main()
+    {
+    int year;
+
+    printf("Enter year: ");
+    scanf("%d", &year);
+
+    if (year % 400 == 0)
+        printf("%d is a century leap year", year);
+
+    else if (year % 100 == 0)
+        printf("%d is not a leap year", year);
+
+    else if (year % 4 == 0)
+        printf("%d is a non-century leap year", year);
+
+    else
+        printf("%d is not a leap year", year);
+
+    return 0;
+}
